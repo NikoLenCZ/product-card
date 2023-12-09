@@ -1,0 +1,15 @@
+.btn {
+  @apply px-5 py-2 text-lg font-semibold rounded-md transition-all duration-300 ease-out w-full md:w-56 grid place-items-center shadow-[0_7px_10px_-5px_rgba(0,0,0,0.5)] hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.5)];
+  &-primary {
+    @apply bg-[#50154C] border-2 border-[#50154C] text-white;
+    &:hover {
+      @apply bg-[#841573];
+    }
+  }
+  &-secondary {
+    @apply border-2 border-[#50154C] text-gray-800;
+    &:hover {
+      @apply bg-[#fef8fd] border-[#b7159f];
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.card {
+  @apply rounded-lg shadow-lg max-w-[60rem] w-full relative bg-white my-8 lg:my-2 lg:grid;
+}
+
+.card__header {
+  @apply max-lg:flex flex-col items-center relative rounded-lg overflow-hidden;
+}
+
+.card__section {
+  @apply p-4 pt-6 xl:max-w-[55rem] xl:mx-auto lg:relative;
+}
+
+.card__footer {
+  @apply p-4 lg:pb-8 flex flex-wrap justify-around gap-5;
+}
+
+h1 {
+  @apply text-center lg:text-3xl text-xl font-semibold mt-4 mb-6 lg:mb-8 lg:mt-8 max-sm:mt-12 px-1;
+}
+
+.header__logo {
+  @apply w-28 lg:w-40 absolute top-0 left-0 rounded-br-lg;
+}
+
+.card__price {
+  @apply font-semibold text-lg lg:absolute lg:top-0 lg:right-0 lg:mr-4 max-lg:text-right xl:mr-10;
+
+  span {
+    @apply text-[#841573] text-xl lg:text-2xl font-bold;
+  }
+}
+
+.card__subtitle {
+  @apply text-gray-950 text-xl lg:text-2xl font-semibold;
+}
+
+.card__description {
+  @apply text-gray-950 text-base leading-[1.3] my-2 lg:my-4;
+}
+
+.christmass__decoration {
+  @apply w-20 lg:w-24 rotate-[27deg] absolute -top-8 -right-4 lg:-right-8 rounded-bl-lg;
+}
