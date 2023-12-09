@@ -1,0 +1,10 @@
+{
+  "index.html": {
+    "css": [
+      "assets/main-8fWoIFMK.css"
+    ],
+    "file": "assets/main-672EP098.js",
+    "isEntry": true,
+    "src": "index.html"
+  }
+}
