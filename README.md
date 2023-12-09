@@ -1,4 +1,4 @@
-# 💫 Lenovo -  prosuktová karta Yoga Book 9i Gen 8
+# 💫 Lenovo -  produktová karta Yoga Book 9i Gen 8
 První úkol do adventní kódovací soutěž s React Girls ve spolupráci s Lenovo.
 
 ---
